@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Music Player</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="left">
+            <div class="library">
+                <div class="heading">
+                    <div class="web_logo">
+                        <img src="\svg\web_logo.svg" alt="">
+                    </div>
+                    <div class="web_logo_name">Music Player</div>
+                </div>
+                <div class="playlist">
+                    <div class="play">
+                        <img src="\svg\play.svg" alt="">
+                        <span>PLAYLIST</span>
+                        <div class="Search1">
+                            <input type="search" class="search1" name="search">
+                        </div>
+                        <button class="SearchIcon">
+                            <img id="SearchIcon" src="\svg\SearchIcon.svg" alt="">
+
+                        </button>
+                    </div>
+                    <ul class="songs_list">
+                    </ul>
+
+                </div>
+                <div class="footer">
+                    <div class="up">
+                        <ul>Home</ul>
+                        <ul>Features</ul>
+                        <ul>FAQs</ul>
+                        <ul>About</ul>
+                    </div>
+                    <div class="line"></div>
+                    <div class="copy_right">
+                        <span>&copy; 2024 Company, Inc</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right_content">
+                <div class="nav2">
+                    <div class="modes">
+                        <img src="\svg\sun.svg" alt="">
+                    </div>
+                    <div class="login_signup">
+                        <div class="login"><a href="#">Log In</a></div>
+                        <div class="signup"><a href="#">Sign Up</a></div>
+                    </div>
+                </div>
+                <div class="album">
+                    <img src="\svg\album.svg" alt="">
+                    <span>ALBUMS</span>
+                    <div class="Search2">
+                        <input type="search" class="search2" name="search">
+                    </div>
+                    <div class="SearchIcon1">
+                        <img src="\svg\SearchIcon1.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="lib_card">
+
+
+                </div>
+                <div class="player">
+
+                    <div class="seek">
+                        <div class="left_time">
+                            <div class="ltime">
+
+                            </div>
+                        </div>
+                        <div class="seeker">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="right_time">
+                            <div class="rtime">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <div class="image">
+                            <img src="cover.jpg" alt="">
+                        </div>
+                        <div class="photo_info">
+                            <div class="ul1">
+                                <ul class="ul_name"></ul>
+                                <ul>Artist Name : ADriGO</ul>
+                            </div>
+                            <!-- <div class="like">
+                                <img src="\svg\like.svg" alt="">
+                            </div> -->
+                        </div>
+                        <div class="btn">
+                            <div class="shuffle">
+                                <img id="shuffle" src="\svg\shuffle.svg" alt="">
+                            </div>
+
+                            <div class="shuffle">
+                                <img id="prev" src="\svg\prev.svg" alt="">
+                            </div>
+
+                            <div class="shuffle">
+                                <img id="play_pause" src="\svg\play_pause.svg" alt="">
+                            </div>
+
+                            <div class="shuffle">
+                                <img id="next" src="\svg\next.svg" alt="">
+                            </div>
+
+                            <div class="shuffle">
+                                <img id="loop" src="\svg\loop.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="volume">
+                            <div class="volume_logo">
+                                <img id="volume_logo" src="\svg\volume_logo.svg" alt="">
+                            </div>
+                            <div class="volume_bar">
+                                <input type="range" name="volumebar" id="volume_rang" class="volume_range">
+                            </div>
+                            <div class="volume_indicator">
+                                <ul class="volume_indicator1"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
